@@ -1,0 +1,24 @@
+{
+  "name": "Cinch Order Management",
+  "author": {
+    "name": "Stephen Ujfalussy",
+    "email": "sujfalussy@zendesk.com",
+    "url": "https://www.zendesk.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/iframe.html",
+        "size": {
+          "width": "100%",
+          "height": "480px"
+        },
+        "flexible": true
+      }
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}

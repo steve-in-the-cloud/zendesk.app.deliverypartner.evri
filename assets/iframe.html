@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Required CSS modules -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.6.9/dist/vuetify.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script>
+      function hideOrders() {
+        var x = document.getElementById("1val-accordion_1.0.6--panel:0");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+
+    <v-app id="app" v-cloak>
+      <div class="py-1" v-if="!firstLoad">
+        <div theme="[object Object]" class="styled__StyledTransitionGroup-sc-nq0usb-1 gKcYmh"></div>
+        <div theme="[object Object]" class="styled__StyledTransitionGroup-sc-nq0usb-1 kyVFeN"></div>
+        <div theme="[object Object]" class="styled__StyledTransitionGroup-sc-nq0usb-1 hkljny"></div>
+        <div style="margin-right: 0.5rem">
+          <div
+            class="StyledBase-sc-14syaqw-0 StyledWell-sc-a5831c-0 fkPjJL efHLvU mb-2"
+            data-garden-id="notifications.well"
+            data-garden-version="8.49.0"
+            style="padding: 1rem 1.5rem"
+          >
+            <div data-garden-id="typography.font" data-garden-version="8.49.0" class="StyledFont-sc-1iildbo-0 fmwAYQ">
+              CI-6MWDE3-EKJ9DY
+            </div>
+            <div class="my-1">
+              <div data-garden-id="typography.font" data-garden-version="8.49.0" class="StyledFont-sc-1iildbo-0 dnkjFE">
+                Vehicle
+              </div>
+              MERCEDES-BENZ GLA AMG LINE ED.DCT <br />
+            </div>
+            <div class="my-1">
+              <div data-garden-id="typography.font" data-garden-version="8.49.0" class="StyledFont-sc-1iildbo-0 dnkjFE">
+                Vehicle Registration
+              </div>
+              GV69SYE
+            </div>
+            <div class="my-1">
+              <div data-garden-id="typography.font" data-garden-version="8.49.0" class="StyledFont-sc-1iildbo-0 dnkjFE">
+                Checkout - Started
+              </div>
+              21/07/2022 20:27
+            </div>
+            <div class="my-1">
+              <div data-garden-id="typography.font" data-garden-version="8.49.0" class="StyledFont-sc-1iildbo-0 dnkjFE">
+                Checkout - Last Updated
+              </div>
+              22/07/2022 15:19
+            </div>
+            <div class="mb-2">
+              <div data-garden-id="typography.font" data-garden-version="8.49.0" class="StyledFont-sc-1iildbo-0 dnkjFE">
+                Status
+              </div>
+              Order completed
+            </div>
+            <p
+              data-garden-id="typography.paragraph"
+              data-garden-version="8.49.0"
+              class="StyledParagraph-sc-zkuftz-0 cKgYTu"
+            >
+              <button
+                data-garden-id="buttons.button"
+                data-garden-version="8.49.0"
+                type="button"
+                class="StyledButton-sc-qe3ace-0 gDItRp"
+                @click="openModal"
+              >
+                Details
+              </button>
+            </p>
+          </div>
+          <div
+            data-garden-id="accordions.accordion"
+            data-garden-version="8.49.0"
+            class="StyledAccordion-sc-niv9ic-0 fvLZDB"
+          >
+            <div
+              data-garden-id="accordions.section"
+              data-garden-version="8.49.0"
+              class="StyledSection-sc-v2t9bd-0 gxHJIG"
+            >
+              <div
+                role="heading"
+                aria-level="0"
+                data-garden-container-id="containers.accordion"
+                data-garden-container-version="1.0.6"
+                data-garden-id="accordions.header"
+                data-garden-version="8.49.0"
+                class="StyledHeader-sc-2c6rbr-0 gCMjWr"
+              >
+                <button
+                  id="1val-accordion_1.0.6--trigger:0"
+                  role="button"
+                  tabindex="0"
+                  aria-controls="1val-accordion_1.0.6--panel:0"
+                  aria-disabled="false"
+                  aria-expanded="true"
+                  type="button"
+                  data-garden-id="accordions.button"
+                  data-garden-version="8.49.0"
+                  class="StyledButton-sc-xj3hy7-0 daiKSO"
+                  onclick="hideOrders()"
+                >
+                  Matthew Cook's other orders (2)</button
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  focusable="false"
+                  viewBox="0 0 16 16"
+                  aria-hidden="true"
+                  theme="[object Object]"
+                  data-garden-id="accordions.rotate_icon"
+                  data-garden-version="8.49.0"
+                  class="StyledRotateIcon-sc-hp435q-0 dZobHu"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12.688 5.61a.5.5 0 01.69.718l-.066.062-5 4a.5.5 0 01-.542.054l-.082-.054-5-4a.5.5 0 01.55-.83l.074.05L8 9.359l4.688-3.75z"
+                  ></path>
+                </svg>
+              </div>
+              <section
+                id="1val-accordion_1.0.6--panel:0"
+                aria-hidden="false"
+                aria-labelledby="1val-accordion_1.0.6--trigger:0"
+                data-garden-id="accordions.panel"
+                data-garden-version="8.49.0"
+                class="StyledPanel-sc-1piryze-0 hxdUIr"
+                style="padding: 0px"
+              >
+                <div
+                  data-garden-id="accordions.step_inner_panel"
+                  data-garden-version="8.49.0"
+                  class="StyledInnerPanel-sc-8nbueg-0 eHlnGI"
+                  style="max-height: 760px"
+                >
+                  <div
+                    class="StyledBase-sc-14syaqw-0 StyledWell-sc-a5831c-0 fkPjJL efHLvU mb-2"
+                    data-garden-id="notifications.well"
+                    data-garden-version="8.49.0"
+                    style="padding: 1rem 1.5rem"
+                  >
+                    <div
+                      data-garden-id="typography.font"
+                      data-garden-version="8.49.0"
+                      class="StyledFont-sc-1iildbo-0 fmwAYQ"
+                    >
+                      CI-65JKVW-V95DRP
+                    </div>
+                    <div class="my-1">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Vehicle
+                      </div>
+                      MERCEDES-BENZ GLA GLA 180 AMG Line Edition 5dr Auto <br />
+                    </div>
+                    <div class="my-1">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Vehicle Registration
+                      </div>
+                      GX20SWF
+                    </div>
+                    <div class="my-1">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Checkout - Started
+                      </div>
+                      20/07/2022 12:45
+                    </div>
+                    <div class="my-1">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Checkout - Last Updated
+                      </div>
+                      20/07/2022 13:40
+                    </div>
+                    <div class="mb-2">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Status
+                      </div>
+                      Cancelled
+                    </div>
+                    <p
+                      data-garden-id="typography.paragraph"
+                      data-garden-version="8.49.0"
+                      class="StyledParagraph-sc-zkuftz-0 cKgYTu"
+                    >
+                      <button
+                        data-garden-id="buttons.button"
+                        data-garden-version="8.49.0"
+                        type="button"
+                        class="StyledButton-sc-qe3ace-0 gDItRp"
+                      >
+                        Details
+                      </button>
+                    </p>
+                  </div>
+                  <div
+                    class="StyledBase-sc-14syaqw-0 StyledWell-sc-a5831c-0 fkPjJL efHLvU mb-2"
+                    data-garden-id="notifications.well"
+                    data-garden-version="8.49.0"
+                    style="padding: 1rem 1.5rem"
+                  >
+                    <div
+                      data-garden-id="typography.font"
+                      data-garden-version="8.49.0"
+                      class="StyledFont-sc-1iildbo-0 fmwAYQ"
+                    >
+                      CI-42KJRJ-8PK2RX
+                    </div>
+                    <div class="my-1">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Vehicle
+                      </div>
+                      Toyota Aygo VVT-I X-PLORE X-SHIFT <br />
+                    </div>
+                    <div class="my-1">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Vehicle Registration
+                      </div>
+                      YH68UHJ
+                    </div>
+                    <div class="my-1">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Checkout - Started
+                      </div>
+                      22/08/2021 18:45
+                    </div>
+                    <div class="my-1">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Checkout - Last Updated
+                      </div>
+                      23/08/2021 15:36
+                    </div>
+                    <div class="mb-2">
+                      <div
+                        data-garden-id="typography.font"
+                        data-garden-version="8.49.0"
+                        class="StyledFont-sc-1iildbo-0 dnkjFE"
+                      >
+                        Status
+                      </div>
+                      Order completed
+                    </div>
+                    <p
+                      data-garden-id="typography.paragraph"
+                      data-garden-version="8.49.0"
+                      class="StyledParagraph-sc-zkuftz-0 cKgYTu"
+                    >
+                      <button
+                        data-garden-id="buttons.button"
+                        data-garden-version="8.49.0"
+                        type="button"
+                        class="StyledButton-sc-qe3ace-0 gDItRp"
+                      >
+                        Details
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div theme="[object Object]" class="styled__StyledTransitionGroup-sc-nq0usb-1 ggmYcl"></div>
+        <div theme="[object Object]" class="styled__StyledTransitionGroup-sc-nq0usb-1 gChbXF"></div>
+        <div theme="[object Object]" class="styled__StyledTransitionGroup-sc-nq0usb-1 kVRIYG"></div>
+      </div>
+    </v-app>
+
+    <!-- Required JS modules -->
+    <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.7/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.6.9/dist/vuetify.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
